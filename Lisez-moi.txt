@@ -1,0 +1,23 @@
++--------------------------------------------+
+| PROJET LIGNE DE PARTAGE DES EAUX 2020-2021 |
++--------------------------------------------+
+
+Fait par :
+  Apiram UDHAYALINGAM
+  Mohamed EL MOUSTAPHA
+----------------------------------------------------------------------------------------------------
+
+Générer l'exécutable :
+  Ouvrir un terminal dans le dossier projet et taper la commande "make" pour compiler le projet.
+  Un exécutable nommé watershed est alors créé.
+  Enfin, il suffit de lancer l'exécutable ainsi crée. En tapant "./watershed [nom_image] [nom_image_marqueur] [nom_image_sortie]" dans le terminal.
+Exemple: 
+  ./watershed route.png route_marqueurs.png route_resultat.png
+
+  La commande "make clean" permet de supprimer tous les fichiers binaires.
+  La commande "make ditsclean" permet de supprimer tous les fichiers binaires ainsi que l'exécutable.
+
+----------------------------------------------------------------------------------------------------
+
+Eléments nécessaire à la bonne exécution du programme :
+  L'image où on veut appliquer la ligne de partage des eaux et son image marqueur doivent être dans le dossier projet.
